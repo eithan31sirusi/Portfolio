@@ -1,0 +1,24 @@
+.photo-warp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid #f9ab00;
+}
+
+.about-heading {
+  color: #f9ab00;
+  text-transform: uppercase;
+}
+
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+}
