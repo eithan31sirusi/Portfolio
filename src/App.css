@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 0.18 solid #f9ab00;
+}
