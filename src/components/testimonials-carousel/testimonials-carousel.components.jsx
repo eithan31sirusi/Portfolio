@@ -2,10 +2,10 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 //AVATRS IMPORTS
-import avatar1 from "../../images/scketches/Untitled-1.png";
-import avatar2 from "../../images/scketches/InkedUntitled-2_LI.jpg";
-import avatar3 from "../../images/scketches/junpradox.jpg";
-import avatar4 from "../../images/scketches/cartoon.png";
+import avatar1 from "../../images/avatars/bill-gates.jpg";
+import avatar2 from "../../images/avatars/Dovi_frances.jpg";
+import avatar3 from "../../images/avatars/steve-jobs.jpg";
+import avatar4 from "../../images/avatars/tshuva.jpg";
 
 import "./testimonials-carousel.styles.css";
 

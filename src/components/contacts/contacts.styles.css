@@ -1,0 +1,127 @@
+.contacts {
+  background-color: rgb(172, 171, 171);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: #f9ab00;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: #ccd1d9;
+  font-size: 1.2rem;
+}
+
+.contacts input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid #ccd1d9;
+  border-radius: 0;
+  color: #f9ab00;
+  outline: 0 !important;
+  box-shadow: none !important;
+  top: 0;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+  background: transparent;
+  color: #f9ab00;
+  border-bottom: 0.125rem solid #ccd1d9;
+}
+
+.contacts textarea {
+  height: 11.93rem !important;
+  margin: 2rem 0 !important;
+  background: rgb(172, 171, 171);
+  border: 0;
+  border-bottom: 0.125rem solid #ccd1d9;
+  border-radius: 0;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  padding-top: 11px;
+  width: 100%;
+  background: none;
+  border: 1px solid #f9ab00;
+  color: black;
+}
+.contact-btn:hover {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: #f9ab00;
+}
+
+textarea.form-control {
+  margin: 0 !important;
+}
+
+.line {
+  position: relative;
+  top: -0.6rem;
+  width: 0;
+  height: 0.29rem;
+  background: #f9ab00;
+  display: inline-block;
+}
+
+input:focus + .line,
+textarea:focus + .line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+textarea:focus + .line {
+  margin-bottom: 5px;
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+textarea.form-control {
+  margin: -0.3rem 0 0 0;
+}
+
+button.btn-main-offer.contact-btn {
+  margin: 15px 0 0 0 !important;
+}
+
+.success-message {
+  font-weight: 900;
+  color: green;
+}
+
+.error-message {
+  font-weight: 900;
+  color: red;
+}
+
+/* ------ MEDIA ------ */
+
+@media (max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 01rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
