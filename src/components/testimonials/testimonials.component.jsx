@@ -5,7 +5,7 @@ import "./testimonials.styles.css";
 
 const Testimonials = () => {
   return (
-    <div className="testimonials">
+    <div id="testimonials" className="testimonials">
       <h1>MY CLIENTS</h1>
       <div className="container">
         <div className="testimonials-content">

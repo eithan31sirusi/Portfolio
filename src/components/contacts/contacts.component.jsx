@@ -41,9 +41,9 @@ const Contacts = () => {
   };
 
   return (
-    <div className="contacts">
+    <div id="contacts" className="contacts">
       <div className="text-center">
-        <h1>contact me</h1>
+        <h1>contact us</h1>
         <p>
           Please fill out the form and describe you project needs and I'll
           contact you as soon as possible.
@@ -146,7 +146,7 @@ const Contacts = () => {
                 {errors.description && errors.description.message}
               </span>
               <button className="btn-main-offer contact-btn" type="submit">
-                contact me
+                contact us
               </button>
             </div>
           </div>

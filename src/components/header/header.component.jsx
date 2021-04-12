@@ -1,10 +1,11 @@
 import React from "react";
 import "./header.style.css";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div className="header-warper">
+    <div id="home" className="header-warper">
       <div className="main-info">
         <h1>DONT FORGET TO PUT A AWESOME HEADLINE!</h1>
         <Typed
@@ -14,9 +15,14 @@ const Header = () => {
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main-offer">
+        <Link
+          className="btn-main-offer"
+          smooth={true}
+          to="contacts"
+          aria-current="page"
+        >
           contact us
-        </a>
+        </Link>
       </div>
     </div>
   );

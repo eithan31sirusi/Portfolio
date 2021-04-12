@@ -4,6 +4,7 @@ import scketch1 from "../../images/scketches/InkedUntitled-2_LI.jpg";
 import scketch2 from "../../images/scketches/junpradox.jpg";
 import scketch3 from "../../images/scketches/WP.png";
 import scketch4 from "../../images/scketches/cartoon.png";
+import { Link } from "react-scroll";
 //FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -22,14 +23,14 @@ const Portfolio = () => {
           perferendis ullam.
         </p>
         <b>GitHub: </b>
-        <a
+        <Link
           className="hyper-link"
           onClick={() =>
             window.open("https://www.linkedin.com/in/eithansirusi/")
           }
         >
           https://www.linkedin.com/in/eithansirusi/
-        </a>
+        </Link>
       </>
     );
 
@@ -54,14 +55,14 @@ const Portfolio = () => {
           perferendis ullam.
         </p>
         <b>GitHub: </b>
-        <a
+        <Link
           className="hyper-link"
           onClick={() =>
             window.open("https://www.linkedin.com/in/eithansirusi/")
           }
         >
           https://www.linkedin.com/in/eithansirusi/
-        </a>
+        </Link>
       </>
     );
 
@@ -71,7 +72,7 @@ const Portfolio = () => {
   const popuopboxConfigScketch2 = {
     titleBar: {
       enable: true,
-      text: "scketch1",
+      text: "scketch2",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -86,14 +87,14 @@ const Portfolio = () => {
           perferendis ullam.
         </p>
         <b>GitHub: </b>
-        <a
+        <Link
           className="hyper-link"
           onClick={() =>
             window.open("https://www.linkedin.com/in/eithansirusi/")
           }
         >
           https://www.linkedin.com/in/eithansirusi/
-        </a>
+        </Link>
       </>
     );
 
@@ -103,7 +104,7 @@ const Portfolio = () => {
   const popuopboxConfigScketch3 = {
     titleBar: {
       enable: true,
-      text: "scketch1",
+      text: "scketch3",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -118,14 +119,14 @@ const Portfolio = () => {
           perferendis ullam.
         </p>
         <b>GitHub: </b>
-        <a
+        <Link
           className="hyper-link"
           onClick={() =>
             window.open("https://www.linkedin.com/in/eithansirusi/")
           }
         >
           https://www.linkedin.com/in/eithansirusi/
-        </a>
+        </Link>
       </>
     );
 
@@ -135,14 +136,14 @@ const Portfolio = () => {
   const popuopboxConfigScketch4 = {
     titleBar: {
       enable: true,
-      text: "scketch1",
+      text: "scketch4",
     },
     fadeIn: true,
     fadeInSpeed: 500,
   };
 
   return (
-    <div className="portfolio-wrapper">
+    <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
@@ -203,14 +204,14 @@ import "react-popupbox/dist/react-popupbox.css";
           perferendis ullam.
         </p>
         <b>GitHub: </b>
-        <a
+        <Link
           className="hyper-link"
           onClick={() =>
             window.open("https://www.linkedin.com/in/eithansirusi/")
           }
         >
           https://www.linkedin.com/in/eithansirusi/
-        </a>
+        </Link>
       </>
     );
 

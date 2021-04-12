@@ -3,7 +3,7 @@
   background: url(../../images/background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -47,6 +47,7 @@
   text-decoration: none;
   background-color: #e22215;
   color: #fff;
+  cursor: pointer;
 }
 
 /* ------ PARTICLES-JS ------ */

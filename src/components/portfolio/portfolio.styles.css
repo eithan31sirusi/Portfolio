@@ -50,6 +50,10 @@
   cursor: pointer;
 }
 
+.popupbox-titleBar {
+  margin-top: 5rem !important;
+}
+
 /* ------OVERFLOW BOX------ */
 
 .portfolio-image-popubox {

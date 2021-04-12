@@ -29,7 +29,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active,
-.navbar-nav > li > a.active:focus {
+.navbar-nav > li > a:focus {
   border-bottom: 0.18rem solid #f9ab00;
 }
 
