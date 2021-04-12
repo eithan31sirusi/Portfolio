@@ -1,0 +1,40 @@
+.my-carousel {
+  color: #fff;
+  background: transparent;
+  margin-top: -6%;
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 17.875rem;
+}
+.carousel .slide img {
+  width: 10rem !important;
+  height: 10rem !important;
+  border-radius: 50%;
+  margin-bottom: 2%;
+}
+
+.my-carousel h3 {
+  color: #f9ab00;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.my-carousel p {
+  color: #ccd1d9;
+}
+
+.carousel .slide {
+  background: transparent !important;
+  height: 100%;
+  padding-top: 3%;
+}
+
+.carousel-root {
+  margin: auto !important;
+  margin-top: 2% !important;
+}

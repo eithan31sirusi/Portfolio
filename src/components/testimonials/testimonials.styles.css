@@ -1,0 +1,22 @@
+.testimonials {
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/10/12/00/paper-3213924_960_720.jpg);
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+  width: 100;
+}
+
+.testimonials h1 {
+  color: #f9ab00;
+  padding: 3rem 0;
+  text-transform: uppercase;
+}
+
+.testimonials-content {
+  text-align: center;
+  max-width: 53.125rem;
+  margin: 0 auto 2rem auto;
+  background: rgba(0, 0, 0, 0.7);
+}

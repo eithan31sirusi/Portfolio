@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 0.18 solid #f9ab00;
 }

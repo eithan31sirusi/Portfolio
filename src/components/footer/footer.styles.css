@@ -1,0 +1,23 @@
+.footer {
+  background: rgba(255, 255, 255, 0);
+  color: rgb(172, 171, 171);
+  margin: 5rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(172, 171, 171);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #f9ab00;
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.row {
+}
