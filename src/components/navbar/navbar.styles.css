@@ -1,5 +1,6 @@
 nav {
   z-index: 2;
+  opacity: 0.9;
 }
 .logo {
   width: 4rem;
