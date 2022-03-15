@@ -1,0 +1,46 @@
+.center {
+  margin: 0 auto;
+}
+
+.awesome {
+  background: linear-gradient(92deg, #f35626, #feab3a);
+  background-size: 200% auto;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  top: 4.1em;
+  right: 1em;
+  animation: colorchange 5s infinite alternate;
+  border-radius: 1px;
+  clip-path: polygon(
+    8% 20%,
+    60% 20%,
+    60% 0%,
+    100% 50%,
+    60% 100%,
+    60% 80%,
+    8% 80%
+  );
+}
+
+.h1_main {
+  text-align: center;
+  color: #313131;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.nonshowing {
+  visibility: hidden;
+}
+
+@keyframes colorchange {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+    opacity: 0.1;
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+    opacity: 0.5;
+  }
+}
