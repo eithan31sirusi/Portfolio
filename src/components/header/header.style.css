@@ -4,14 +4,14 @@
     no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 70vh;
   background-color: blue;
   background-blend-mode: difference;
 }
 
 .main-info {
   position: absolute;
-  top: 0;
+  top: 15%;
   left: 0;
   right: 0;
   bottom: 0;
@@ -26,6 +26,11 @@
 .main-info h1 {
   color: #f9ab00;
   text-transform: uppercase;
+}
+
+.main-info h4 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 1.5em 0 0 0;
 }
 
 /* ------ TYPED TEXT ------ */

@@ -1,0 +1,109 @@
+body {
+  background: black;
+}
+
+.main {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 80%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.circle_3 {
+  width: 10px;
+  height: 10px;
+  background: #ecd091;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle3 6s linear infinite;
+}
+.circle_4 {
+  width: 10px;
+  height: 10px;
+  background: #ecd091;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle4 6s linear infinite;
+}
+
+/* --- difrent colors circles */
+
+.circle_5 {
+  width: 10px;
+  height: 10px;
+  background: rgb(126, 177, 197);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle 6s linear infinite;
+}
+.circle_6 {
+  width: 10px;
+  height: 10px;
+  background: rgb(126, 177, 197);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle2 6s linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-30px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg) translate(-30px) rotate(-360deg);
+  }
+}
+@keyframes circle2 {
+  0% {
+    transform: rotate(0deg) translate(30px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg) translate(30px) rotate(-360deg);
+  }
+}
+@keyframes circle3 {
+  0% {
+    transform: rotate(0deg) translate(-30px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-30px) rotate(360deg);
+  }
+}
+@keyframes circle4 {
+  0% {
+    transform: rotate(0deg) translate(30px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(30px) rotate(360deg);
+  }
+}

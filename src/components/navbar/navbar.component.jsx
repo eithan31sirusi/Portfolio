@@ -1,8 +1,13 @@
 import React from "react";
-import logo from "../../images/logo.png";
+
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+import Logo from '../../UI/Logo.component'
+
+import CircleAnimation from "../../animations/circleAnimation"
+
 import "./navbar.styles.css";
 
 const Navebar = () => {
@@ -10,7 +15,7 @@ const Navebar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
         <Link smooth={true} to="home" className="navbar-brand">
-          <img className="logo" src={logo} alt="" />
+      <CircleAnimation><Logo>E.N.S</Logo></CircleAnimation>
         </Link>
         <button
           className="navbar-toggler"

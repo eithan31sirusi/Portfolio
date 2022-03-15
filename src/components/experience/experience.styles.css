@@ -6,6 +6,7 @@ dark grey: #666666
 
 .experience {
   padding: 0.7rem;
+  background-color: rgb(119, 153, 182);
 }
 
 .experience-warpper {
@@ -66,7 +67,7 @@ dark grey: #666666
 
 .timeline-content {
   margin-top: 0.3125rem;
-  color: #e22215;
+  color: #a8322a;
   font-weight: 900;
 }
 

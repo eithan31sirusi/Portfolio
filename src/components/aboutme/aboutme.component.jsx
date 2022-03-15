@@ -4,8 +4,8 @@ import ProfileImage from "../../images/profile.jpeg";
 
 const AboutMe = () => {
   return (
-    <div id="about" className="container py-5">
-      <div className="row">
+    <div id="about" className="container py-5 " >
+      <div className="row " >
         <div className="col-lg-6 col-xm-12">
           <div className="photo-warp mb-5">
             <img
@@ -19,13 +19,16 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">ABOUT ME</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum,
-            temporibus mollitia corporis molestias esse commodi amet delectus
-            soluta voluptatum sed numquam explicabo culpa inventore. Iure
-            dolores repudiandae sequi? Reiciendis dicta assumenda aspernatur
-            unde perferendis, cum laudantium esse debitis recusandae odio error
-            inventore facilis, minima deserunt quod? Possimus porro praesentium
-            quasi?
+          First and foremost a loving and proud father.
+
+          Besides i also love to create, write, draw,  sing and play guitar.
+<br/><br/>
+          But beyond that a Self-motivated and a team player 
+          with a can-do approach.
+          Passion for creativity and web 
+          design.
+          Eager to learn and grow as a 
+          Full-Stack Developer.
           </p>
         </div>
       </div>

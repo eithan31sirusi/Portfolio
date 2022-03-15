@@ -5,6 +5,7 @@ import Particles from "react-particles-js";
 const Particle = () => {
   return (
     <Particles
+    height='50%'
       className="particles-canvas"
       params={{
         particles: {
@@ -20,6 +21,7 @@ const Particle = () => {
               width: 6,
             },
           },
+         
         },
       }}
     />
